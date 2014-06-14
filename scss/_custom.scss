@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800);
+
+
+body {
+  max-width: 6.5in;
+  margin: 0.25in auto;
+}
+
+
+
+
+
+.header {
+}
+
+.header__name {
+  font-weight: 800;
+}
+
+.header__role {
+  font-weight: 400;
+}
+
+.header__location {
+  font-weight: 400;
+}
+
+.header__contact {
+  padding-bottom: 0.1in;
+  font-weight: 600;
+  @extend %clear-float;
+}
+
+
+
+
+
+.section {
+  margin-top: 0.3in;
+}
+
+.section__heading {
+  margin-bottom: 0.1in;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+}
+
+.section__entry {
+  margin-bottom: 0.1in;
+  padding-bottom: 0.1in;
+  line-height: 1.5;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.section__item--bold {
+  font-weight: 600;
+}
+
+
+
+
+
+.skill-list {
+  list-style-type: none;
+  // padding-bottom: 0.2in;
+  @extend %clear-float;
+}
+
+.skill-list__item {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+
+
+
+
+
+
+// ---------- GLOBAL STYLES  ---------- //
+
+%clear-float {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+    clear:both;
+  }
+}
+
+.company-logo {
+  width: 1.5in;
+  float: right;
+}
+
+.icon {
+  display: inline-block;
+  font-style: normal;
+}
+
+.right-arrow {
+  &:before {
+    content: '\2794';
+  }
+}
+
+.heart {
+  &:before {
+    content: '\2665';
+  }
+}
+
+

@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"column-count"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"dev",
+				"dev-holder"
+			],
+			[
+				"po",
+				"pos:a	position:absolute"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"site-m",
+				"site-map__link"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fl",
+				"fl:l	float:left"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"list",
+				"list:n	list-style-type:none"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"faq",
+				"faqList"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fa",
+				"faqList"
+			],
+			[
+				"s",
+				"swapClass"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/_custom.scss",
+			"settings":
+			{
+				"buffer_size": 1319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_grid.scss",
+			"settings":
+			{
+				"buffer_size": 1059,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_reset.scss",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/resume.coffee",
+			"settings":
+			{
+				"buffer_size": 611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/work.json",
+			"settings":
+			{
+				"buffer_size": 892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3445,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"pack re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/derekperuo/Desktop/web-dev-resume/js/resume.js",
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/scss-section-heading.sublime-snippet",
+		"/Users/derekperuo/Desktop/web-dev-resume/scss/_grid.scss",
+		"/Users/derekperuo/Desktop/web-dev-resume/scss/_reset.scss",
+		"/Users/derekperuo/Desktop/web-dev-resume/scss/resume.scss",
+		"/Users/derekperuo/Desktop/web-dev-resume/resume.css",
+		"/Users/derekperuo/Desktop/todo.txt",
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/private/var/folders/hF/hFlUOzvKGb0IB8wMDk2oBU+++TI/-Tmp-/TemporaryItems/ai14026653201.tmp/preview.html",
+		"/Users/derekperuo/Desktop/mckinsey_logo_blue-2.svg",
+		"/Users/derekperuo/Desktop/behance-skills.txt",
+		"/Users/derekperuo/Desktop/mckinsey_logo_blue.svg",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/carousel.html",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/js/app.js",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/index.html",
+		"/Users/derekperuo/Downloads/copyright/css/app.less",
+		"/Users/derekperuo/Dropbox/Public/sites/msds.draft1/index.html",
+		"/Users/derekperuo/Downloads/copyright/copyright.html",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/button.html",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/config.rb",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/_hacks.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/_settings.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/app.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/footer.html",
+		"/Users/derekperuo/Dropbox/Public/repos/dotfiles/Preferences.sublime-settings",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/subnav4.html",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/scss/_custom.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/dbp/assets/js/credits.js",
+		"/Users/derekperuo/Desktop/the-real-html5-bp.html",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/index.html",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/css/app.css",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/scss/_custom.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/scss/_settings.scss",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/app.js",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/app.coffee",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/faq.json",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/accordion.html",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/test.js",
+		"/Users/derekperuo/Dropbox/Public/sites/mint/js/app.old.js",
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/Users/derekperuo/Desktop/untitled.jade",
+		"/Users/derekperuo/Desktop/untitled.styl",
+		"/Users/derekperuo/Dropbox/Misc/installedApps_10_6.txt",
+		"/Users/derekperuo/Downloads/Installed Apps/checksums.md5",
+		"/Users/derekperuo/Dropbox/Public/sites/msds.draft1/scss/_settings.scss",
+		"/Users/derekperuo/Desktop/main.coffee",
+		"/Users/derekperuo/Documents/Business/Crunch/crunch-resign.txt",
+		"/Users/derekperuo/Desktop/coding-quiz-derek-peruo/css/answer-styles.css",
+		"/Users/derekperuo/Desktop/coding-quiz-derek-peruo/index.html",
+		"/Users/derekperuo/Desktop/Hello world!",
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"two",
+			"from",
+			"faq",
+			"h3",
+			"h2",
+			"</h4>",
+			"<h4>",
+			"map",
+			"mini",
+			"up",
+			"- ",
+			"%padding-left",
+			"padding-left",
+			"main-content--padding-left",
+			"color",
+			"hsl\\(",
+			"hsl",
+			"color",
+			"$triangle-box-size",
+			"$box-shadow",
+			"box-shadow",
+			"box-",
+			"shadow-color",
+			"color",
+			"shadow",
+			"color",
+			"rgb",
+			"h1",
+			"inherit;",
+			"__item",
+			"map__item",
+			"box-shad",
+			"div",
+			"btn",
+			"violet",
+			"float",
+			"two",
+			"small-",
+			"    $(",
+			"29px",
+			"sex",
+			"js",
+			"eof",
+			"white",
+			"characters"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"h3",
+			"</h3>",
+			"<h3>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/_custom.scss",
+					"settings":
+					{
+						"buffer_size": 1319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1260,
+								1260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1787.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 1059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1011,
+								1011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 816.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_reset.scss",
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/resume.coffee",
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								533,
+								533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 3147.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/work.json",
+					"settings":
+					{
+						"buffer_size": 892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								885,
+								885
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 213.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2388,
+								2388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 953.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true
+}
