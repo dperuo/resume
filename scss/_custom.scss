@@ -84,7 +84,11 @@ body {
 }
 
 
-
+.ribbon {
+  @media print {
+    display: none;
+  }
+}
 
 
 
