@@ -1,9 +1,5 @@
 $ ->
 
-  # $work = $('#work')
-
-  # $work.append '<div id="workList" class="row section__entry"></div>'
-
   $.getJSON 'js/work.json', (data) ->
 
     $workList = $('#work')
