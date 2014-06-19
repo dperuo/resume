@@ -57,6 +57,9 @@ body {
   &:last-child {
     margin-bottom: 0.3in;
     border-bottom: none;
+    #work & {
+      margin-bottom: 0;
+    }
   }
   .company-logo {
     position: absolute;
@@ -104,14 +107,14 @@ body {
 .no-border { border-bottom: none; }
 
 
-%clearfix {
-  &:before,
-  &:after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-}
+// %clearfix {
+//   &:before,
+//   &:after {
+//     content: '';
+//     display: table;
+//     clear: both;
+//   }
+// }
 
 .company-logo {
   width: 1.5in;

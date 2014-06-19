@@ -4,20 +4,76 @@
 		"selected_items":
 		[
 			[
-				"col",
-				"column-count"
+				"car",
+				"carousel"
 			],
 			[
-				"inl",
-				"inline"
+				"pad",
+				"padding"
 			],
 			[
-				"cl",
-				"class"
+				"r",
+				"rgba()"
 			],
 			[
-				"font",
-				"font-weight"
+				"marketing__mess",
+				"marketing__message-body"
+			],
+			[
+				"mark",
+				"marketing__main-img"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"to",
+				"top-footer__sitemap-list"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"top",
+				"top-footer"
+			],
+			[
+				"fo",
+				"footer-nav__item"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"acc",
+				"accordion"
+			],
+			[
+				"js",
+				"js-accordion-1"
+			],
+			[
+				"acco",
+				"accordionLink"
+			],
+			[
+				"accordi",
+				"accordionLink"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"main-",
+				"main-content__img"
 			],
 			[
 				"ri",
@@ -32,10 +88,6 @@
 				"pos:a	position:absolute"
 			],
 			[
-				"padd",
-				"padding-top"
-			],
-			[
 				"site-m",
 				"site-map__link"
 			],
@@ -46,10 +98,6 @@
 			[
 				"bot",
 				"bottom"
-			],
-			[
-				"marg",
-				"margin-bottom"
 			],
 			[
 				"bac",
@@ -80,6 +128,10 @@
 				"normal"
 			],
 			[
+				"inl",
+				"inline-block"
+			],
+			[
 				"faq",
 				"faqList"
 			],
@@ -103,7 +155,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 1319,
+				"buffer_size": 1878,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,31 +163,7 @@
 			"file": "scss/_grid.scss",
 			"settings":
 			{
-				"buffer_size": 1059,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/_reset.scss",
-			"settings":
-			{
-				"buffer_size": 554,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/resume.coffee",
-			"settings":
-			{
-				"buffer_size": 611,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/work.json",
-			"settings":
-			{
-				"buffer_size": 892,
+				"buffer_size": 969,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +171,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3445,
+				"buffer_size": 4211,
 				"line_ending": "Unix"
 			}
 		}
@@ -192,19 +220,19 @@
 	},
 	"file_history":
 	[
-		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/derekperuo/Desktop/web-dev-resume/js/resume.js",
-		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/scss-section-heading.sublime-snippet",
-		"/Users/derekperuo/Desktop/web-dev-resume/scss/_grid.scss",
-		"/Users/derekperuo/Desktop/web-dev-resume/scss/_reset.scss",
-		"/Users/derekperuo/Desktop/web-dev-resume/scss/resume.scss",
-		"/Users/derekperuo/Desktop/web-dev-resume/resume.css",
-		"/Users/derekperuo/Desktop/todo.txt",
+		"/Users/derekperuo/Dropbox/Public/repos/resume/_todo.txt",
+		"/Users/derekperuo/Dropbox/Public/repos/resume/scss/_reset.scss",
+		"/Users/derekperuo/Dropbox/Public/repos/resume/js/work.json",
+		"/Users/derekperuo/Dropbox/Public/repos/resume/js/work.old.json",
+		"/Users/derekperuo/Dropbox/Public/repos/resume/scss/_hacks.scss",
+		"/Users/derekperuo/Dropbox/Public/web-dev/mck-em2em/css/carousel.css",
 		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/private/var/folders/hF/hFlUOzvKGb0IB8wMDk2oBU+++TI/-Tmp-/TemporaryItems/ai14026653201.tmp/preview.html",
-		"/Users/derekperuo/Desktop/mckinsey_logo_blue-2.svg",
-		"/Users/derekperuo/Desktop/behance-skills.txt",
-		"/Users/derekperuo/Desktop/mckinsey_logo_blue.svg",
+		"/Users/derekperuo/Dropbox/Public/web-dev/mck-em2em/js/detect-ie.js",
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/derekperuo/Dropbox/Public/web-dev/mck-em2em/js/detect-ie.coffee",
+		"/Users/derekperuo/Library/Application Support/Sublime Text 2/Packages/User/css-section-heading.sublime-snippet",
+		"/Users/derekperuo/Dropbox/Public/sites/msds/msds.sublime-project",
 		"/Users/derekperuo/Dropbox/Public/sites/msds/carousel.html",
 		"/Users/derekperuo/Dropbox/Public/sites/msds/js/app.js",
 		"/Users/derekperuo/Dropbox/Public/sites/msds/index.html",
@@ -254,6 +282,8 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"custom.css, carousel.css",
+			"*.css"
 		]
 	},
 	"find_state":
@@ -261,17 +291,67 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"two",
-			"from",
-			"faq",
+			"\n  <link rel=\"icon\"\n        type=\"image/svg+xml\"\n        href=\"http://www.w3.org/html/logo/downloads/HTML5_Badge.svg\">",
+			"row",
+			"div class=\"row\"",
+			"img ",
+			".item",
+			"col-lg-4 col-md-4 col-sm-4 col-xs-12 story-entry",
+			"story",
+			"carousel",
+			"#myCarousel",
+			"=\"#myCarousel",
+			"logo",
+			"mklogo",
+			"container",
+			"data-",
+			"a ",
+			"debug=\"hide\"",
+			"main-link",
+			"View story",
+			"orange",
 			"h3",
-			"h2",
-			"</h4>",
-			"<h4>",
+			"orange",
+			"debug=\"finished\"",
+			"hide",
+			"sub-nav",
+			"container",
+			"marketing",
+			"type",
+			"class\"top",
+			"Website title",
+			"img",
 			"map",
-			"mini",
-			"up",
-			"- ",
+			"bold",
+			"row",
+			"top-footer",
+			"footer",
+			".*footer.*?top.*",
+			"js/doc",
+			"url(images/",
+			"$dev-color",
+			"dev-holder--bg",
+			"Things and Stuff",
+			"accordionIconsAndHeadings",
+			"contentImgs",
+			"accordionIcon",
+			"accordionHeading",
+			"contentImgs",
+			"accordionIcon",
+			"contentImg",
+			"LINK",
+			"link",
+			"accordionLink",
+			"accordIconAndHeading",
+			"accordLink",
+			"accordionLink",
+			"inactive",
+			"linkInactive",
+			"heading--",
+			"em;",
+			"left",
+			"main-content--padding-left",
+			"ul",
 			"%padding-left",
 			"padding-left",
 			"main-content--padding-left",
@@ -313,10 +393,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"h3",
-			"</h3>",
-			"<h3>",
-			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -327,7 +403,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -335,41 +410,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 1319,
+						"buffer_size": 1878,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1260,
-								1260
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1787.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scss/_grid.scss",
-					"settings":
-					{
-						"buffer_size": 1059,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1011,
-								1011
+								860,
+								860
 							]
 						],
 						"settings":
@@ -379,87 +428,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 816.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scss/_reset.scss",
-					"settings":
-					{
-						"buffer_size": 554,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "js/resume.coffee",
+					"buffer": 1,
+					"file": "scss/_grid.scss",
 					"settings":
 					{
-						"buffer_size": 611,
+						"buffer_size": 969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								533,
-								533
+								899,
+								899
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 3147.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/work.json",
-					"settings":
-					{
-						"buffer_size": 892,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								885,
-								885
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 213.0,
+						"translation.y": 1581.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -471,28 +468,30 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3445,
+						"buffer_size": 4211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2388,
-								2388
+								229,
+								229
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 953.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

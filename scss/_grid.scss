@@ -24,35 +24,82 @@
 
 
 
-.one   { width: 10%;  }
-.two   { width: 20%;  }
-.three { width: 30%;  }
-.four  { width: 40%;  }
-.five  { width: 50%;  }
-.six   { width: 60%;  }
-.seven { width: 70%;  }
-.eight { width: 80%;  }
-.nine  { width: 90%;  }
-.ten   { width: 100%; }
+.one,
+.offset-one {
+  width: 10%;
+}
+
+.two,
+.offset-two {
+  width: 20%;
+}
+
+.three,
+.offset-three {
+  width: 30%;
+}
+
+.four,
+.offset-four {
+  width: 40%;
+}
+
+.five,
+.offset-five {
+  width: 50%;
+}
+
+.six,
+.offset-six {
+  width: 60%;
+}
+
+.seven,
+.offset-seven {
+  width: 70%;
+}
+
+.eight,
+.offset-eight {
+  width: 80%;
+}
+
+.nine,
+.offset-nine {
+  width: 90%;
+}
+
+.ten,
+.offset-ten {
+  width: 100%;
+}
+
 
 .one,
 .two,
 .three,
-.four {
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten {
   @media screen and (max-width: 480px) {
     width: 100%;
   }
 }
 
-.offset-one   { margin-left: 20%; }
-.offset-two   { margin-left: 40%; }
-.offset-three { margin-left: 60%; }
-.offset-four  { margin-left: 80%; }
-
 .offset-one,
 .offset-two,
 .offset-three,
-.offset-four {
+.offset-four,
+.offset-five,
+.offset-six,
+.offset-seven,
+.offset-eight,
+.offset-nine,
+.offset-ten {
   @media screen and (max-width: 480px) {
     margin-left: 0;
   }
