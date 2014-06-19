@@ -1,0 +1,7 @@
+- Adjust grid using -100%
+
+- use Angular instead of jquery for json call
+
+- use data attribute instead of class name as json hook
+
+- namespace data binding
