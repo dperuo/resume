@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body ng-app>
   <div class="header">
     <div class="row">
       <div class="five col">
@@ -26,12 +26,12 @@
         <h4 class="header__role">Front-End Developer</h4>
         <h5 class="header__location">New York, NY, USA</h5>
       </div>
-      <div class="five col text-right "> <!-- HIDE HERE -->
+      <div  class="five col text-right" data-dp-is-hidden="false">  <!-- HIDE HERE -->
         <p class="header__contact">646-820-8246</p>
         <p class="header__contact">derek@derekperuo.net</p>
         <a class="header__contact" href="http://be.net/dperuo">http://be.net/dperuo</a>
       </div>
-      <div class="five col hidden"> <!-- HIDE HERE -->
+      <div  class="five col" data-dp-is-hidden="true">  <!-- HIDE HERE -->
         <p class="header__contact ">Represented by</p>
         <img class="header__contact company-logo" src="img/logo-cc.jpg">
         <p class="header__contact">212.777.8001</p>
@@ -39,7 +39,7 @@
     </div>
   </div>
 
-  <div class="section"><!-- EXPERIENCE -->
+  <div class="section" data-dp-used-for="experience">
     <h4 class="section__heading">EXPERIENCE</h4>
     <div id="work"></div> <!-- LOADED VIA WORK.JSON -->
     <div class="row section__entry">
@@ -49,7 +49,7 @@
     </div>
   </div>
 
-  <div class="section"> <!-- SKILLS -->
+  <div class="section" data-dp-used-for="skills">
     <h4 class="section__heading">TOP 12 SKILLS</h4>
     <div class="row section__entry no-border">
       <div class="ten col text-left">
@@ -76,7 +76,7 @@
     </div>
   </div>
 
-  <div class="section"> <!-- EDUCATION -->
+  <div class="section" data-dp-used-for="education">
     <h4 class="section__heading">EDUCATION</h4>
     <div class="row section__entry">
       <div class="three col">
@@ -95,7 +95,7 @@
   </div>
 
 
-  <div class="section"> <!-- LOVE REMOTE -->
+  <div class="section" data-dp-used-for="love-remote">
     <h4 class="section__heading">I <i class="heart icon"></i> REMOTE</h4>
       <div class="row section__entry">
         <div class="ten col text-left">
@@ -109,6 +109,7 @@
     <a href="https://github.com/dperuo/resume"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
   <script src="js/vendor/jquery-1.11.1.min.js"></script>
   <script src="js/resume.js"></script>
 </body>

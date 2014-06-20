@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"clear",
+				"clearfix"
+			],
+			[
 				"car",
 				"carousel"
 			],
@@ -155,7 +159,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 1878,
+				"buffer_size": 1903,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,7 +175,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4211,
+				"buffer_size": 4402,
 				"line_ending": "Unix"
 			}
 		}
@@ -291,6 +295,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"clicked",
 			"\n  <link rel=\"icon\"\n        type=\"image/svg+xml\"\n        href=\"http://www.w3.org/html/logo/downloads/HTML5_Badge.svg\">",
 			"row",
 			"div class=\"row\"",
@@ -403,6 +408,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -410,15 +416,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 1878,
+						"buffer_size": 1903,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								860,
-								860
+								556,
+								556
 							]
 						],
 						"settings":
@@ -428,7 +434,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 435.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -445,8 +451,8 @@
 						"selection":
 						[
 							[
-								899,
-								899
+								229,
+								149
 							]
 						],
 						"settings":
@@ -456,7 +462,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1581.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -472,15 +478,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4211,
+						"buffer_size": 4402,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								229,
-								229
+								482,
+								482
 							]
 						],
 						"settings":
@@ -491,7 +497,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
