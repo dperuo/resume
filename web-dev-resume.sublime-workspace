@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"none"
+			],
+			[
 				"clear",
 				"clearfix"
 			],
@@ -128,10 +132,6 @@
 				"list:n	list-style-type:none"
 			],
 			[
-				"no",
-				"normal"
-			],
-			[
 				"inl",
 				"inline-block"
 			],
@@ -159,15 +159,15 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 1903,
+				"buffer_size": 2445,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scss/_grid.scss",
+			"file": "scss/_reset.scss",
 			"settings":
 			{
-				"buffer_size": 969,
+				"buffer_size": 554,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,7 +175,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4402,
+				"buffer_size": 4559,
 				"line_ending": "Unix"
 			}
 		}
@@ -224,6 +224,7 @@
 	},
 	"file_history":
 	[
+		"/Users/derekperuo/Dropbox/Public/repos/resume/scss/_grid.scss",
 		"/Users/derekperuo/Dropbox/Public/repos/resume/_todo.txt",
 		"/Users/derekperuo/Dropbox/Public/repos/resume/scss/_reset.scss",
 		"/Users/derekperuo/Dropbox/Public/repos/resume/js/work.json",
@@ -295,6 +296,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%clearfix",
 			"clicked",
 			"\n  <link rel=\"icon\"\n        type=\"image/svg+xml\"\n        href=\"http://www.w3.org/html/logo/downloads/HTML5_Badge.svg\">",
 			"row",
@@ -408,7 +410,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -416,15 +418,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 1903,
+						"buffer_size": 2445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								556,
-								556
+								2060,
+								2060
 							]
 						],
 						"settings":
@@ -434,32 +436,30 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 435.0,
+						"translation.y": 27.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "scss/_grid.scss",
+					"file": "scss/_reset.scss",
 					"settings":
 					{
-						"buffer_size": 969,
+						"buffer_size": 554,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								229,
-								149
+								93,
+								93
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -478,26 +478,27 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4402,
+						"buffer_size": 4559,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								482,
-								482
+								843,
+								843
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.x": 25.0,
+						"translation.y": 424.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
