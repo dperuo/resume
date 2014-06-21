@@ -92,14 +92,7 @@
 
 
 
-// ---------- EXTRAS ---------- //
-
-
-  .github-ribbon {
-    @media print {
-      display: none;
-    }
-  }
+// ---------- EXTRA FUNCTIONALITY ---------- //
 
   .toggle-button {
     position: absolute;
@@ -109,9 +102,6 @@
     height: 50px;
     background-color: transparent;
     border: none;
-    @media print {
-      display: none;
-    }
     &:focus {
       outline: none;
     }
@@ -164,6 +154,12 @@
   body {
     max-width: 6.5in;
     margin: 0.25in auto;
+  }
+
+  [data-dp-used-for="web-only"] {
+    @media print {
+      display: none;
+    }
   }
 
   .col.text-center { text-align: center; }

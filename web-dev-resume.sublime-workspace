@@ -159,7 +159,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 2445,
+				"buffer_size": 2426,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,7 +175,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4559,
+				"buffer_size": 4625,
 				"line_ending": "Unix"
 			}
 		}
@@ -296,6 +296,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ng-",
+			"web-only",
+			"%clear",
+			"@media",
 			"%clearfix",
 			"clicked",
 			"\n  <link rel=\"icon\"\n        type=\"image/svg+xml\"\n        href=\"http://www.w3.org/html/logo/downloads/HTML5_Badge.svg\">",
@@ -410,7 +414,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -418,15 +422,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 2445,
+						"buffer_size": 2426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2060,
-								2060
+								1651,
+								1651
 							]
 						],
 						"settings":
@@ -436,7 +440,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 27.0,
+						"translation.y": 1949.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -478,27 +482,27 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4559,
+						"buffer_size": 4625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								843,
-								843
+								751,
+								751
 							]
 						],
 						"settings":
 						{
-							"spell_check": true,
+							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 25.0,
-						"translation.y": 424.0,
+						"translation.x": 0.0,
+						"translation.y": 208.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
