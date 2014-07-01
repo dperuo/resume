@@ -159,7 +159,7 @@
 			"file": "scss/_custom.scss",
 			"settings":
 			{
-				"buffer_size": 2426,
+				"buffer_size": 3179,
 				"line_ending": "Unix"
 			}
 		},
@@ -172,10 +172,18 @@
 			}
 		},
 		{
+			"file": "scss/_grid.scss",
+			"settings":
+			{
+				"buffer_size": 960,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4625,
+				"buffer_size": 5132,
 				"line_ending": "Unix"
 			}
 		}
@@ -296,6 +304,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"max-width",
+			"}\n",
 			"ng-",
 			"web-only",
 			"%clear",
@@ -422,15 +432,15 @@
 					"file": "scss/_custom.scss",
 					"settings":
 					{
-						"buffer_size": 2426,
+						"buffer_size": 3179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1651,
-								1651
+								2308,
+								2308
 							]
 						],
 						"settings":
@@ -440,7 +450,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1949.0,
+						"translation.y": 2722.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -457,8 +467,8 @@
 						"selection":
 						[
 							[
-								93,
-								93
+								149,
+								149
 							]
 						],
 						"settings":
@@ -470,6 +480,34 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								749
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1416.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -478,19 +516,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4625,
+						"buffer_size": 5132,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								751,
-								751
+								4246,
+								4246
 							]
 						],
 						"settings":
@@ -502,7 +540,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 208.0,
+						"translation.y": 2090.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -24,15 +24,18 @@
   <div class="header">
     <div class="row">
 
-      <div class="five col">
+      <div class="five col" data-dp-max-width-at="25em">
         <h1 class="header__name">Derek Peruo</h1>
         <h4 class="header__role">Front-End Developer</h4>
         <h5 class="header__location">New York, NY, USA</h5>
       </div>
 
-      <button class="toggle-button" data-ng-click="toggleContactInfo = !toggleContactInfo" data-dp-used-for="web-only"></button>
+      <button class="toggle-button"
+              data-ng-click="toggleContactInfo = !toggleContactInfo"
+              data-dp-used-for="web-only"
+              accesskey="t"></button>
 
-      <div  class="five col text-right" data-ng-hide="toggleContactInfo">
+      <div  class="five col text-right" data-ng-hide="toggleContactInfo" data-dp-max-width-at="25em">
         <p class="header__contact">646-820-8246</p>
         <p class="header__contact">derek@derekperuo.net</p>
         <a class="header__contact" href="http://be.net/dperuo">http://be.net/dperuo</a>
@@ -40,7 +43,7 @@
 
       <div  class="five col" data-ng-show="toggleContactInfo">
         <p class="header__contact ">Represented by</p>
-        <img class="header__contact company-logo" src="img/logo-cc.jpg">
+        <img class="header__contact company-logo" src="img/logo-cc.jpg" data-dp-max-width-at="25em" data-dp-stay-visible="true">
         <p class="header__contact">212.777.8001</p>
       </div>
     </div>
@@ -107,6 +110,16 @@
       <div class="row section__entry">
         <div class="ten col text-left">
           <a href="https://vimeo.com/76063825">https://vimeo.com/76063825</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section github-ribbon-text" data-dp-used-for="web-only">
+    <h4 class="section__heading">FORK ME!</h4>
+      <div class="row section__entry">
+        <div class="ten col text-left">
+          <a href="https://github.com/dperuo/resume">https://github.com/dperuo/resume</a>
         </div>
       </div>
     </div>

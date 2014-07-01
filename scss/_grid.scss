@@ -83,10 +83,9 @@
 .six,
 .seven,
 .eight,
-.nine,
-.ten {
-  @media screen and (max-width: 480px) {
-    width: 100%;
+.nine {
+  @media screen and (max-width: 36em) {
+    width: 50%;
   }
 }
 
@@ -100,7 +99,7 @@
 .offset-eight,
 .offset-nine,
 .offset-ten {
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 36em) {
     margin-left: 0;
   }
 }
