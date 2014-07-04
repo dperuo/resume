@@ -1,12 +1,5 @@
 {
   "work": [
-    {
-      "company": "McKinsey &amp; Company",
-      "title": "Front-End Developer" ,
-      "location": "New York, NY, USA",
-      "dates": "Jun 2014 &ndash; Present",
-      "logo": "logo-mckinsey.svg"
-    },
 
     {
       "company": "Thompson Reuters",
@@ -14,6 +7,14 @@
       "location": "New York, NY, USA",
       "dates": "June 2013 &ndash; Present",
       "logo": "logo-tr.svg"
+    },
+
+    {
+      "company": "McKinsey &amp; Company",
+      "title": "Front-End Developer" ,
+      "location": "New York, NY, USA",
+      "dates": "Jun 2014 &ndash; Present",
+      "logo": "logo-mckinsey.svg"
     },
 
     {
