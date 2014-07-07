@@ -183,7 +183,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5260,
+				"buffer_size": 5251,
 				"line_ending": "Unix"
 			}
 		},
@@ -191,7 +191,7 @@
 			"file": "js/resume.coffee",
 			"settings":
 			{
-				"buffer_size": 635,
+				"buffer_size": 644,
 				"line_ending": "Unix"
 			}
 		}
@@ -314,6 +314,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"addHasJs",
+			"changeAttrs",
+			"addHasJs",
 			"max-width",
 			"}\n",
 			"ng-",
@@ -530,15 +533,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5260,
+						"buffer_size": 5251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1350,
-								1350
+								441,
+								441
 							]
 						],
 						"settings":
@@ -550,7 +553,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 543.0,
+						"translation.y": 544.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -560,15 +563,15 @@
 					"file": "js/resume.coffee",
 					"settings":
 					{
-						"buffer_size": 635,
+						"buffer_size": 644,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								120,
-								120
+								46,
+								46
 							]
 						],
 						"settings":

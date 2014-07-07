@@ -2,7 +2,7 @@
 (function() {
   var app;
 
-  app = angular.module('resumeApp', []);
+  app = angular.module('resumeApp', ['ngTouch']);
 
   app.controller('headerRowCtrl', function($scope) {
     return $scope.toggleContactInfo = false;

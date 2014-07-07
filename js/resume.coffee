@@ -1,4 +1,4 @@
-app = angular.module 'resumeApp', []
+app = angular.module 'resumeApp', ['ngTouch']
 
 app.controller 'headerRowCtrl', ($scope) ->
     $scope.toggleContactInfo = false
