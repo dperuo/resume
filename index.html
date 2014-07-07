@@ -21,9 +21,9 @@
 
 </head>
 
-<body data-ng-app>
+<body data-ng-app="resumeApp">
   <div class="header">
-    <div class="row">
+    <div class="row" data-ng-controller="headerRowCtrl">
 
       <div class="five col" data-dp-max-width-at="25em">
         <h1 class="header__name">Derek Peruo</h1>
@@ -42,9 +42,9 @@
         <a class="header__contact" href="http://be.net/dperuo">http://be.net/dperuo</a>
       </div>
 
-      <div  class="five col" data-ng-show="toggleContactInfo">
+      <div  class="five col" data-ng-show="toggleContactInfo" data-dp-max-width-at="25em">
         <p class="header__contact ">Represented by</p>
-        <img class="header__contact company-logo" src="img/logo-cc.jpg" data-dp-max-width-at="25em" data-dp-stay-visible="true">
+        <img class="header__contact company-logo" ng-src="img/logo-cc.jpg" data-dp-stay-visible="true">
         <p class="header__contact">212.777.8001</p>
       </div>
     </div>

@@ -1,3 +1,9 @@
+app = angular.module 'resumeApp', []
+
+app.controller 'headerRowCtrl', ($scope) ->
+    $scope.toggleContactInfo = false
+
+
 $ ->
 
   $.getJSON 'js/work.json', (data) ->

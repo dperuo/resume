@@ -183,7 +183,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5132,
+				"buffer_size": 5260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/resume.coffee",
+			"settings":
+			{
+				"buffer_size": 635,
 				"line_ending": "Unix"
 			}
 		}
@@ -232,6 +240,8 @@
 	},
 	"file_history":
 	[
+		"/Users/derekperuo/Dropbox/Public/repos/resume/js/resume.js",
+		"/Users/derekperuo/Dropbox/Public/repos/resume/js/resume.coffee",
 		"/Users/derekperuo/Dropbox/Public/repos/resume/scss/_grid.scss",
 		"/Users/derekperuo/Dropbox/Public/repos/resume/_todo.txt",
 		"/Users/derekperuo/Dropbox/Public/repos/resume/scss/_reset.scss",
@@ -520,15 +530,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5132,
+						"buffer_size": 5260,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4246,
-								4246
+								1350,
+								1350
 							]
 						],
 						"settings":
@@ -540,7 +550,33 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2090.0,
+						"translation.y": 543.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/resume.coffee",
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
