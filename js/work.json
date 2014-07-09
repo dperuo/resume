@@ -1,35 +1,40 @@
 {
   "work": [
+
     {
-      "company": "McKinsey &amp; Company",
-      "title": "Front-End Developer" ,
-      "location": "New York, NY, USA",
-      "dates": "Jun 2014 &ndash; Present",
-      "logo": "logo-mckinsey.svg"
+      "company":     "McKinsey &amp; Company",
+      "title":       "Front-End Developer",
+      "description": "Responsive IE8-friendly CSS layouts",
+      "location":    "New York, NY, USA",
+      "dates":       "Jun 2014 &ndash; Present",
+      "logo":        "logo-mckinsey.svg"
     },
 
     {
-      "company": "Highwire Shakespeare",
-      "title": "Front-End Developer, Artistic Director",
-      "location": "New York, NY, USA",
-      "dates": "Feb 2013 &ndash; Present",
-      "logo": "logo-hws.svg"
+      "company":     "Highwire Shakespeare",
+      "title":       "Front-End Developer, Artistic Director",
+      "description": "Responsive text using jQuery",
+      "location":    "New York, NY, USA",
+      "dates":       "Feb 2013 &ndash; Present",
+      "logo":        "logo-hws.svg"
     },
 
     {
-      "company": "Renaissance Fitness Inc.",
-      "title": "Front-End Developer, Story Designer" ,
-      "location": "New York, NY, USA",
-      "dates": "Jan 2010 &ndash; Present",
-      "logo": "logo-rfi.svg"
+      "company":     "Renaissance Fitness Inc.",
+      "title":       "Front-End Developer, Story Designer" ,
+      "description": "Static site built with Jekyll",
+      "location":    "New York, NY, USA",
+      "dates":       "Jan 2010 &ndash; Present",
+      "logo":        "logo-rfi.svg"
     },
 
     {
-      "company": "Body By D-Rock",
-      "title": "Front-End Developer, Story Designer" ,
-      "location": "Chicago, IL, USA",
-      "dates": "Jan 2008 &ndash; Jan 2010",
-      "logo": "no-logo.svg"
+      "company":     "Body By D-Rock",
+      "title":       "Front-End Developer, Story Designer" ,
+      "description": "Wordpress theme and CMS maintenance",
+      "location":    "Chicago, IL, USA",
+      "dates":       "Jan 2008 &ndash; Jan 2010",
+      "logo":        "no-logo.svg"
     }
   ]
 }
