@@ -1,14 +1,14 @@
 {
   "work": [
 
-  {
-    "company":     "~ Super Secret International Corp. ~",
-    "title":       "Software Developer",
-    "description": "Rebuilt desktop software in Angular.js",
-    "location":    "Hoboken, NJ, USA",
-    "dates":       "July 2014 &ndash; Present",
-    "logo":        "no-logo.svg"
-  },
+    {
+      "company":     "~ Super Secret International Corp. ~",
+      "title":       "Software Developer",
+      "description": "Rebuilt desktop software in Angular.js",
+      "location":    "Hoboken, NJ, USA",
+      "dates":       "Jul 2014 &ndash; Present",
+      "logo":        "no-logo.svg"
+    },
 
     {
       "company":     "McKinsey &amp; Company",
