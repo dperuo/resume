@@ -1,7 +1,7 @@
 angular
     .module 'resumeApp', ['ngTouch']
-    .controller 'headerRowCtrl', ($scope) ->
-        $scope.toggleContactInfo = false
+    .controller 'headerRowCtrl', ->
+        this.toggleContactInfo = false
 
 
 $ ->
