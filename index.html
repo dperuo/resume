@@ -60,6 +60,24 @@
     </div>
   </div>
 
+  <div class="section" data-dp-used-for="skills" ng-controller="skillSelector as ss">
+    <h4 class="section__heading">{{ss.catagory}} SKILLS <input type="search" class="section__filter" ng-model="searchTerm" placeholder="filter skills..." data-dp-used-for="web-only"></h4>
+
+    <div class="row section__entry no-border">
+      <div class="ten col text-left">
+        <ul class="skill-list">
+          <li class="skill-list__item" ng-repeat="skill in ss.skillList | filter:searchTerm | orderBy: 'name'">{{skill.name}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row section__entry">
+      <div class="ten col text-left">
+        <p>( All The Skills <i class="right-arrow icon"></i> <a href="http://git.io/URCTEA">http://git.io/URCTEA</a> )</p>
+      </div>
+    </div>
+  </div>
+
+<!--
   <div class="section" data-dp-used-for="skills">
     <h4 class="section__heading">TOP 12 SKILLS</h4>
     <div class="row section__entry no-border">
@@ -86,6 +104,7 @@
       </div>
     </div>
   </div>
+-->
 
   <div class="section" data-dp-used-for="education">
     <h4 class="section__heading">EDUCATION</h4>
