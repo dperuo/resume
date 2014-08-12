@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
-    sass = require('gulp-ruby-sass');
+    sass = require('gulp-ruby-sass'),
+    ts   = require('gulp-typescript');
 
 
 
@@ -7,7 +8,7 @@ var gulp = require('gulp'),
 var inputs = {
   img:  'src/img/**/*',
   scss: 'src/scss/**/*.scss',
-  ts:   'src/coffee/**/*.ts'
+  ts:   'src/ts/**/*.ts'
 };
 
 var outputs = {
@@ -19,16 +20,25 @@ var outputs = {
 
 
 // --------------- TASKS --------------- //
-gulp.task('scss', function () {
+gulp.task('scss', scssFn);
+gulp.task('ts', tsFn);
+gulp.task('default', ['scss', 'ts'], defaultFn)
+
+
+
+// --------------- TASK FUNCTIONS --------------- //
+function scssFn() {
   gulp.src(inputs.scss)
-    .pipe(sass({style: 'compressed'}))
-    .pipe(gulp.dest(outputs.css))
-});
+      .pipe(sass({style: 'compressed'}))
+      .pipe(gulp.dest(outputs.css))
+};
 
-// gulp.task('default', ['scss'], function() {
-//   gulp.watch(inputs.scss, ['scss'])
-// });
+function tsFn() {
+  gulp.src(inputs.ts)
+      .pipe(ts())
+      .pipe(gulp.dest(outputs.js))
+}
 
-gulp.task('default', function () {
-  console.log (inputs, outputs);
-});
+function defaultFn() {
+  //
+}

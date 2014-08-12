@@ -6,41 +6,8 @@
     this.catagory = "Top 12";
     this.skillList = [
       {
-        name: "Angular.js",
-        cat: "Top 12"
-      }, {
-        name: "Bootstrap 3",
-        cat: "Top 12"
-      }, {
-        name: "CoffeeScript",
-        cat: "Top 12"
-      }, {
-        name: "Compass",
-        cat: "Top 12"
-      }, {
-        name: "CSS3",
-        cat: "Top 12"
-      }, {
-        name: "Foundation 5",
-        cat: "Top 12"
-      }, {
-        name: "HTML5",
-        cat: "Top 12"
-      }, {
-        name: "Illustrator",
-        cat: "Top 12"
-      }, {
-        name: "jQuery",
-        cat: "Top 12"
-      }, {
-        name: "Less",
-        cat: "Top 12"
-      }, {
-        name: "Photoshop",
-        cat: "Top 12"
-      }, {
-        name: "Sass",
-        cat: "Top 12"
+        cat: "Top 12",
+        list: ["Angular.js", "Bootstrap 3", "CoffeeScript", "Compass", "CSS3", "Foundation 5", "HTML5", "Illustrator", "jQuery", "Less", "Photoshop", "Sass"]
       }
     ];
     return true;

@@ -61,12 +61,12 @@
   </div>
 
   <div class="section" data-dp-used-for="skills" ng-controller="skillSelector as ss">
-    <h4 class="section__heading">{{ss.catagory}} SKILLS <input type="search" class="section__filter" ng-model="searchTerm" placeholder="filter skills..." data-dp-used-for="web-only"></h4>
+    <h4 class="section__heading">{{ss.skillList[0].cat}} SKILLS <input type="search" class="section__filter" ng-model="searchTerm" placeholder="filter skills..." data-dp-used-for="web-only"></h4>
 
     <div class="row section__entry no-border">
       <div class="ten col text-left">
         <ul class="skill-list">
-          <li class="skill-list__item" ng-repeat="skill in ss.skillList | filter:searchTerm | orderBy: 'name'">{{skill.name}}</li>
+          <li class="skill-list__item" ng-repeat="skill in ss.skillList[0].list | filter:searchTerm | orderBy: 'name'">{{skill}}</li>
         </ul>
       </div>
     </div>
