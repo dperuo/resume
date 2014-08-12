@@ -7,7 +7,7 @@
     this.skillList = [
       {
         cat: "Top 12",
-        list: ["Angular.js", "Bootstrap 3", "CoffeeScript", "Compass", "CSS3", "Foundation 5", "HTML5", "Illustrator", "jQuery", "Less", "Photoshop", "Sass"]
+        list: ["Angular.js", "Bootstrap 3", "JavaScript", "Compass", "CSS3", "Foundation 5", "HTML5", "Illustrator", "jQuery", "Less", "Photoshop", "Sass"]
       }
     ];
     return true;
