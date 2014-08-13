@@ -22,7 +22,7 @@ var outputs = {
 // --------------- TASKS --------------- //
 gulp.task('scss', scssFn);
 gulp.task('ts', tsFn);
-gulp.task('default', ['scss', 'ts'], defaultFn)
+gulp.task('default', defaultFn);
 
 
 
@@ -40,5 +40,6 @@ function tsFn() {
 }
 
 function defaultFn() {
-  //
+  gulp.watch(inputs.ts, ['ts'])
+  console.log ('Watching...');
 }

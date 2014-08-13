@@ -1,5 +1,5 @@
 angular
-    .module 'resumeApp', ['ngTouch']
+    .module 'resumeApp', ['ngTouch', 'ngAnimate']
     .controller 'headerRowCtrl', ->
         this.toggleContactInfo = false
 
