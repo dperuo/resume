@@ -2,8 +2,8 @@
   "work": [
 
     {
-      "company":     "~ Super Secret International Corp. ~",
-      "title":       "Software Developer",
+      "company":     "Thomson Reuters",
+      "title":       "Software Developer (contractor)",
       "description": "Rebuilt desktop software in Angular.js",
       "location":    "Hoboken, NJ, USA",
       "dates":       "Jul 2014 &ndash; Present",
@@ -12,7 +12,7 @@
 
     {
       "company":     "McKinsey &amp; Company",
-      "title":       "Front-End Developer",
+      "title":       "Front-End Developer (contractor)",
       "description": "Responsive IE8-friendly CSS layouts",
       "location":    "New York, NY, USA",
       "dates":       "Jun 2014 &ndash; Present",
