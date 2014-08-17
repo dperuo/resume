@@ -1,3 +1,5 @@
+/// <reference path="./def/angular.d.ts" />
+
 (function () {
 "use strict";
 

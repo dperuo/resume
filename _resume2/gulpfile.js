@@ -7,8 +7,8 @@ var gulp = require('gulp'),
 // --------------- PATHS --------------- //
 var inputs = {
   img:  'src/img/**/*',
-  scss: 'src/scss/**/*.scss',
-  ts:   'src/ts/**/*.ts'
+  scss: 'src/scss/*.scss',
+  ts:   'src/ts/*.ts'
 };
 
 var outputs = {
