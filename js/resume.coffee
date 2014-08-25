@@ -3,17 +3,17 @@ angular
     .controller 'headerRowCtrl', ->
         this.toggleContactInfo = false
 
-    .controller 'skillSelector', ->
-      this.catagory = "Top 12"
-      this.skillList = [
-        { cat: "Top 12", list: ["Angular.js", "Bootstrap 3", "Compass", "CSS3", "Foundation 5", "HTML5", "Illustrator", "JavaScript", "jQuery", "Less", "Photoshop", "Sass"] }
-      ]
-      return true
+    .controller 'skillSelector', ['$scope', '$http', ($scope, $http) ->
+      $http.get 'js/api/skill-list.json'
+        .success (data) ->
+          vm           = $scope
+          vm.category  = data.cat
+          vm.skillList = data.list
+    ]
 
 
 $ ->
-
-  $.getJSON 'js/work.json', (data) ->
+  $.getJSON 'js/api/work.json', (data) ->
 
     $workList = $('#work')
 

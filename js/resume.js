@@ -2,19 +2,19 @@
 (function() {
   angular.module('resumeApp', ['ngTouch', 'ngAnimate']).controller('headerRowCtrl', function() {
     return this.toggleContactInfo = false;
-  }).controller('skillSelector', function() {
-    this.catagory = "Top 12";
-    this.skillList = [
-      {
-        cat: "Top 12",
-        list: ["Angular.js", "Bootstrap 3", "Compass", "CSS3", "Foundation 5", "HTML5", "Illustrator", "JavaScript", "jQuery", "Less", "Photoshop", "Sass"]
-      }
-    ];
-    return true;
-  });
+  }).controller('skillSelector', [
+    '$scope', '$http', function($scope, $http) {
+      return $http.get('js/api/skill-list.json').success(function(data) {
+        var vm;
+        vm = $scope;
+        vm.category = data.cat;
+        return vm.skillList = data.list;
+      });
+    }
+  ]);
 
   $(function() {
-    return $.getJSON('js/work.json', function(data) {
+    return $.getJSON('js/api/work.json', function(data) {
       var $workList;
       $workList = $('#work');
       return $(data.work).each(function(i, value) {
