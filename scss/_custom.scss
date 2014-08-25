@@ -30,6 +30,9 @@
     }
   }
 
+  .current-event {
+    text-align: center;
+  }
 
 
 
@@ -228,6 +231,8 @@
   .col.text-center { text-align: center; }
   .col.text-left   { text-align: left;   }
   .col.text-right  { text-align: right;  }
+
+  .text-italic { font-style: italic; }
 
   .no-border { border-bottom: none; }
 
