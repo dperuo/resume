@@ -24,7 +24,7 @@
 
     {
       "company":     "Highwire Shakespeare",
-      "title":       "Front-End Developer, Artistic Director",
+      "title":       "Front-End Developer (side project)",
       "description": "Responsive text using jQuery",
       "location":    "New York, NY, USA",
       "dates":       "Feb 2013 &ndash; Present",
@@ -36,7 +36,7 @@
       "title":       "Front-End Developer, Story Designer" ,
       "description": "Static site built with Jekyll",
       "location":    "New York, NY, USA",
-      "dates":       "Jan 2010 &ndash; Present",
+      "dates":       "Jan 2010 &ndash; Jun 2014",
       "logo":        "logo-rfi.svg"
     },
 
