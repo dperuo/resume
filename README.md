@@ -1,4 +1,1 @@
-resume
-======
-
-My resume, written in HTML, Sass and CoffeeScript. It prints nicely, too!
+This repo has moved: <https://github.com/dperuo/dperuo.github.io>
